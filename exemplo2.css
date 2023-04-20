@@ -1,0 +1,41 @@
+body{
+        background-color: white;
+}
+.topo{
+    background-color: #c8102e;
+    height: 300;
+    padding: 0px;
+    width: 100%;
+    color: #ff2400;
+}
+.topo ul{
+display: flex;
+width: 100%;
+justify-content: space-around;
+}
+.corpo{
+    background-color:white;
+    text-align: center;
+    min-height: 300;
+}
+.rodape{
+    background-color: #003da5;
+    height: 300;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    width: auto;
+}
+
+.topo li{
+        list-style: none;
+}
+
+.topo li a{
+    text-decoration: none;
+    color: #003da5;
+    padding: 10px;
+    display: flex;
+}
+.topo li a:hover{
+        text-decoration: underline;
+}
